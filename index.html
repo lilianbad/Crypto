@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,
+                                initial-scale=1.0">
+    <title>Cryptomonnaie Tracker</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1465/1465645.png" type="image/x-icon">
+    
+    <link rel="stylesheet" href=
+"https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <header class="bg-dark text-white py-4 mb-4">
+        <div class="container text-center">
+            <h1>Cryptomonnaie Tracker &<a href="conv.html"> Convertisseur</a></h1>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="input-group mb-4">
+            <input type="text" id="searchInput"
+                class="form-control"
+                placeholder="Rechercher des cryptomonnaies...">
+            <div class="input-group-append">
+                <button class="btn btn-primary"
+                        type="button" id="searchButton">
+                Rechercher</button>
+            </div>
+        </div>
+        <div class="table-responsive">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Logo</th>
+                        <th>Nom</th>
+                        <th>Symbole</th>
+                        <th>Prix</th>
+                        <th>Changement du prix</th>
+                        <th>Capitalisation</th>
+                    </tr>
+                </thead>
+                <tbody id="cryptoTable">
+                    <!-- Les détails de la cryptomonnaie seront insérés ici dynamiquement en utilisant JavaScript.
+ -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white py-4 mt-4">
+        <div class="container text-center">
+            <p>© Cryptomonnaie Tracker By KBKL</p>
+        </div>
+    </footer>
+
+    <script src=
+"https://code.jquery.com/jquery-3.5.1.slim.min.js">
+    </script>
+    <script src=
+"https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js">
+    </script>
+    <script src=
+"https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js">
+    </script>
+    <script src="script/script.js"></script>
+</body>
+
+</html>
